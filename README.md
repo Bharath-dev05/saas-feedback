@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nexx - Collect Feedback Seamlessly
 
-## Getting Started
+Nexx is a modern SaaS platform that enables you to effortlessly collect, manage, and analyze feedback from your users. Easily embed feedback widgets in your applications, track user ratings, and visualize data on a clean dashboard.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+- **Seamless Integration**: Embed a simple script on your site.
+- **Customizable**: Tailor your widget and project display.
+- **Analytics**: Monitor feedback trends and performance.
+- **Secure**: All data is handled securely.
+- **Scalable**: Create and manage multiple projects.
+- **Fast Support**: Quick help from our dedicated team.
+
+---
+
+## 🛠️ Getting Started
+
+### 1. **Login or Register**
+
+Sign in using our secure authentication system powered by Clerk.
+
+><img src="./dpics/Screenshot(71).png" alt="Login Page" width="600" height="400">
+
+
+---
+
+### 2. **Create a Project**
+
+After logging in, go to your dashboard and click on `+` to create a new project.
+
+>
+
+---
+
+### 3. **Embed Feedback Widget**
+
+Once your project is created, you’ll be given an embed code. Paste it into your website’s HTML to start collecting feedback.
+
+```html
+<my-widget project-id="3"></my-widget>
+<script src="/widget.umd.js"></script>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 4. **Feedback Collection in Action**
 
-## Learn More
+Visitors can now leave ratings, messages, and even upload images.
 
-To learn more about Next.js, take a look at the following resources:
+>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 5. **View and Manage Feedback**
 
-## Deploy on Vercel
+As an admin, you can view feedback entries in the dashboard including username, rating, message, and uploaded image.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+### 6. **Payment Integration (Premium)**
+
+Upgrade to premium using Stripe to unlock unlimited projects.
+
+>
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend**: Next.js
+- **Backend**: Supabase
+- **Authentication**: Clerk
+- **Payments**: Stripe
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 📬 Contact
+
+For support or inquiries, please reach out to our team.
+
+---
+
+Happy Collecting 🚀
+
