@@ -21,7 +21,7 @@ Nexx is a modern SaaS platform that enables you to effortlessly collect, manage,
 
 Sign in using our secure authentication system powered by Clerk.
 
-><img src="./dpics/Screenshot(71).png" alt="Login Page" width="600" height="400">
+
 
 
 ---

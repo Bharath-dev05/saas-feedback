@@ -8,13 +8,17 @@ import {
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 import HeaderMenu from "@/components/header-menu"
+import Link from "next/link";
 
 const PageHeader = () => {
   return (
     <header className="sticky inset-x-0 top-0 z-30 w-full transition-all bg-white/20 backdrop-blur-md">
       <div className="w-full max-w-screen-xl px-2.5 lg:px-20 relative mx-auto border-b">
         <div className="flex h-14 items-center justify-between">
-          <Image src="/logo.png" alt="Logo" width={120} height={200} />
+          <Link href="/">
+                    <Image src="/logo2.png" alt="Logo" width={120} height={200} />
+
+          </Link>
           <div>
             <SignedOut>
               <SignInButton>
