@@ -82,14 +82,6 @@ Upgrade to premium using Stripe to unlock unlimited projects.
 
 ## 📄 License
 
-MIT License
-
----
-
-## 📬 Contact
-
-For support or inquiries, please reach out to our team.
-
 ---
 
 Happy Collecting 🚀
